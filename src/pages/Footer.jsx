@@ -18,7 +18,7 @@ export default function Footer() {
                                 <a href="#" className="hover:underline">Brand Center</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Blog</a>
+                                <a href="#" className="hover:underline">NiXod</a>
                             </li>
                         </ul>
                     </div>
@@ -91,10 +91,10 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="text-center">
                     <a href="#" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                        <img src="./images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                        Landwind
+                        <img src="./images/logo.svg" className="h-6 mr-3 sm:h-9" alt="NiXod Logo" />
+                        NiXod
                     </a>
-                    <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                    <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024 NiXod™. All Rights Reserved. Built with <a href="https://nixod.com" className="text-purple-600 hover:underline dark:text-purple-500">NiXod</a> .
                     </span>
                     <ul className="flex justify-center mt-5 space-x-5">
                         <li>
