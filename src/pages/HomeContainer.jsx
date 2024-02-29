@@ -1,6 +1,10 @@
 import React from 'react'
 import landing_img from '../img/landing_img.png'
 import { FaPlayCircle } from "react-icons/fa";
+import { Link } from 'react-scroll';
+import ContactContainer from './ContactContainer'; 
+
+
 export default function HomeContainer() {
     return (
         <div>
@@ -16,6 +20,7 @@ export default function HomeContainer() {
                             </p>
                         </div>
                         <div className='flex items-center gap-4'>
+                        <Link to="containerContact" smooth duration={500}>
                             <button className=" text-white text-lg bg-teal-500 hover:bg-teal-600 focus:ring-2
                                     focus:ring-teal-400 font-medium rounded-full px-4 lg:px-5 py-2 lg:py-2
                                     sm:mr-2 lg:mr-0 dark:bg-teal-600 dark:hover:bg-teal-700
@@ -25,6 +30,7 @@ export default function HomeContainer() {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                                 </svg>
                             </button>
+                            </Link>
                             <div className='flex items-center gap-2'>
                                 <FaPlayCircle className='text-4xl text-red-400' />
                                 <a className='text-lg underline cursor-pointer'> See How it works </a>

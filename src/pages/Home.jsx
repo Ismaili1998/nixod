@@ -4,7 +4,8 @@ import Header from './Header'
 import { Route, Routes } from 'react-router-dom'
 import { Suspense } from 'react'
 import HomeContainer from './HomeContainer'
-
+import ContactContainer from './ContactContainer'
+// import Contact from './Contact/Contact';
 
 export default function Home() {
 
@@ -15,7 +16,12 @@ export default function Home() {
                 <Suspense fallback={"..."}>
                     <Routes>
                         <Route path="/" element={<HomeContainer />} />
+                        {/* <Route path="/contact/" element={<ContactContainer />} /> */}
+                        
                     </Routes>
+
+                    <ContactContainer/>
+
                 </Suspense>
             </main>
             <Footer></Footer>
